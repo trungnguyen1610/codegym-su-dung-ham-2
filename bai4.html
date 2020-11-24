@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không. Nếu là ký tự số hàm trả về true, ngược lại trả về false.</title>
+</head>
+<body>
+    <script>
+        function checkingCharacterNumber(character){
+            if(character >= "0" && character < "9"){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        let input = prompt("Nhập Kí tự cần kiểm tra");
+       console.log(checkingCharacterNumber(input));
+    </script>
+</body>
+</html>

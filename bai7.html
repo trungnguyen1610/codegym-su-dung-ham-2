@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // function swap(a,b){
+        //     return [b,a]
+        // }
+        // console.log(swap(2,3))
+        function swap() {
+            number1 = number2 + ((number2 = number1), 0);
+            //(b=a, 0): gán giá trị ban đầu của a cho b, trả về số 0.
+            //a = b + 0: gán giá trị b (ban đầu) + 0 cho a, tức gán a = b.
+        }
+        let number1 = 3;
+        let number2 = 9;
+        swap(number1, number2);
+        console.log(number1, number2);
+    </script>
+</body>
+
+</html>
